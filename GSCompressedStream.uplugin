@@ -1,0 +1,33 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "GS Compressed Stream",
+	"Description": "Compressed Gaussian Splatting Video streaming with SPZ-based intra-frame compression and SH0 mode",
+	"Category": "Graphics",
+	"CreatedBy": "IDMNYU",
+	"CreatedByURL": "https://github.com/IDMNYU",
+	"DocsURL": "https://github.com/IDMNYU/GSCompressedStream",
+	"MarketplaceURL": "",
+	"SupportURL": "https://github.com/IDMNYU/GSCompressedStream/issues",
+	"EngineVersion": "5.4.0",
+	"CanContainContent": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "CompressedStreamer",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Linux"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "Niagara",
+			"Enabled": true
+		}
+	]
+}

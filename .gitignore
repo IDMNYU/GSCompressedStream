@@ -1,0 +1,18 @@
+# Unreal Engine build products
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+
+# IDE / OS
+.vs/
+.vscode/
+*.user
+*.suo
+*.sln
+*.VC.db
+*.opensdf
+*.sdf
+Thumbs.db
+Desktop.ini
+.DS_Store
